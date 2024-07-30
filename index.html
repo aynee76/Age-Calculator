@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="container">
+        <h1>Age Calculator</h1>
+
+        <form id="ageCalculator">
+            <section class="form-group">
+                <label for="birthdate">Enter your birthdate:</label>
+                <input type="text" placeholder="DD-MM-YYYY" id="birthdate" required>
+            </section>
+
+            <section class="form-group">
+               <button type="submit">Calculate Age</button>
+            </section>
+        </form>
+
+
+        <section class="wrapper" id="wrapper">
+            <div class="result" id="result">
+                <!-- <div class="result-item">
+                    <h3>Weeks Passed: </h3>
+                    <p>Age in Weeks</p>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
